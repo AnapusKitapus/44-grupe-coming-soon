@@ -6,6 +6,7 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* Components */
+@import '../components/clock.css';
 
 /* Custom style bellow this line */
 
@@ -13,7 +14,7 @@
     width: 3rem;
 }
 
-.main-tittle {
+.main-title {
     font-size: 4.5rem;
     text-transform: uppercase;
     text-align: center;
@@ -24,7 +25,7 @@
     text-align: center;
 }
 
-.footer container {
+footer.container {
     padding-top: 0;
 }
 
