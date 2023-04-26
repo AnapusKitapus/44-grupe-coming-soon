@@ -1,3 +1,8 @@
+:root {
+    --main-color: #03a9f4;
+    --secondary-color: #EA1E63;
+}
+
 body,
 body * {
     margin: 0;
@@ -10,8 +15,8 @@ body {
 }
 
 .bg-main {
-    background-color: #03a9f4;
+    background-color: var(--main-color);
 }
 .bg-secondary {
-    background-color: #EA1E63;
+    background-color: var(--secondary-color);
 }

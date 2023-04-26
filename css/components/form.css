@@ -1,0 +1,34 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+.form label {
+    display: none;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 0.5em 0.1em;
+    font-family: inherit;
+    font-size: inherit;
+    color: #000;
+    line-height: 1.3em;
+    border: none;
+    border-bottom: 0.1rem solid #D2D2D2;
+}
+.form textarea {
+    min-height: 3.6em;
+    height: 6.2em;
+    max-height: 14em;
+    resize: vertical;
+}
+.form ::placeholder {
+    color: #D2D2D2;
+}
+:focus-visible {
+    outline: 2px solid var(--main-color);
+}
